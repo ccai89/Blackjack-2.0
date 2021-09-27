@@ -173,8 +173,8 @@ function blackjack(){
       hVal[i] === 10 ? 
         bottom += `|   ${hSuit[i]} ${hVal[i]}| ` : 
         bottom += `|    ${hSuit[i]} ${hVal[i]}| `;
-      mid += `| Team  | `;
-      mid2 += `| SLiCK | `;
+      mid += `|       | `;
+      mid2 += `|       | `;
     }
     
     console.log(`${topBttm}\n${top}\n${mid}\n${mid2}\n${bottom}\n${topBttm}`);
